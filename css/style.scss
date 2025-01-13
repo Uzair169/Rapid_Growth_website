@@ -1,8 +1,8 @@
 $white: #ffffff;
 $black: #000000;
 // $primary1: #0cb1a8;
-$primary1: #00bbf0;
-$primary2: #00204a;
+$primary1: #19715c;
+$primary2: #003d3a;
 $textCol: #1f1f1f;
 
 // import fonts - font-family: 'Open Sans', sans-serif;
@@ -181,15 +181,9 @@ a:focus {
         transition: all 0.3s;
       }
 
-      &:hover,
-      &.active {
+      &:hover {
         .nav-link {
           color: $primary1;
-        }
-      }
-
-      &.active {
-        .nav-link {
           font-weight: 600;
         }
       }
